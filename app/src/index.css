@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 800px at 10% 10%, rgba(34, 197, 94, 0.22), transparent 55%),
+    radial-gradient(900px 700px at 90% 20%, rgba(249, 115, 22, 0.18), transparent 55%),
+    radial-gradient(900px 700px at 50% 95%, rgba(59, 130, 246, 0.14), transparent 60%),
+    linear-gradient(180deg, #f8fafc 0%, #ffffff 60%, #f1f5f9 100%);
+  color: #0f172a;
+}
